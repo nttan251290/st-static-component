@@ -1,0 +1,120 @@
+/* ================== Corporate Tabbing CSS ==================  */
+.corporate-tabbing {
+  padding-top: 20px;
+}
+
+.corporate-tabbing ul.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 0;
+  flex: 0 1 auto;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.corporate-tabbing ul.nav li {
+  width: 100%;
+  max-width: 240px;
+  text-align: center;
+  border: 2px solid #e5e6eb;
+  border-right: 1px solid #e5e6eb;
+  border-left: 1px solid #e5e6eb;
+  height: 60px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+}
+
+.corporate-tabbing ul.nav li.active {
+  border-bottom: 5px solid #ee0f0f;
+}
+
+.corporate-tabbing ul.nav li.active a {
+  color:#ee0f0f;
+  font-weight: bold;
+}
+
+.corporate-tabbing ul.nav li:first-child {
+  border-left: 2px solid #e5e6eb;
+}
+
+.corporate-tabbing ul.nav li:last-child {
+  border-right: 2px solid #e5e6eb;
+}
+
+.corporate-tabbing ul.nav li a {
+  display: flex;
+  border: none;
+  color: #333;
+  width: 100%;
+  line-height: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.corporate-tabbing ul.nav li a p {
+  margin-bottom: 0;
+}
+
+.corporate-tabbing .nav-link.active {
+  background: #fff;
+  color: #333;
+}
+
+.corporate-tabbing .tab-content {
+  margin-top: 0;
+}
+
+.tab-content > .tab-panel {
+  display: none;
+}
+
+.tab-content > .tab-panel.active {
+  display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .corporate-tabbing ul.nav li {
+    max-width: 250px;
+    width: 50%;
+    height: 56px;
+  }
+
+  .corporate-tabbing ul.nav li a {
+    height: 56px;
+    line-height: 56px;
+  }
+
+  .corporate-tabbing ul.nav li a p {
+    font-size: 0.875rem;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(2) {
+    border-right: 2px solid #e5e6eb;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(3) {
+    border-left: 2px solid #e5e6eb;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(3) {
+    border-top: 0;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(4) {
+    border-top: 0;
+  }
+
+}
+/* ================== End Corporate Tabbing CSS ==================  */

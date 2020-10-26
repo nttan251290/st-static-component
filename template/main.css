@@ -1,0 +1,30 @@
+.template-bg-white {
+  background-color: #fff;
+}
+
+.header ul.nav {
+  cursor: default;
+  display: flex;
+  align-items: center;
+  position: relative;
+  list-style: none;
+  z-index: 500;
+  padding-left: 0;
+}
+
+.header ul.nav .menu_item {
+  margin-right: 20px;
+}
+
+.header ul.nav .menu_item .singtel-logo img {
+  width: 80px;
+}
+
+.header ul.nav .menu_item a {
+  
+}
+
+/* ========== Common CSS usaged ============ */
+.right {
+  float: right!important;
+}

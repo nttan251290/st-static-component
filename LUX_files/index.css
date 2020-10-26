@@ -1,0 +1,256 @@
+/* ================== History Accordion CSS ==================  */
+.group_accordion {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+}
+
+.group_accordion .acccordion_item {
+  list-style: none;
+  margin-top: 1.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+  padding: 35px 25px;
+}
+
+.group_accordion .acccordion_item .accordion_header {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 33px;
+  background: #FFFFFF;
+  line-height: 1;
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
+}
+
+.group_accordion .acccordion_item .accordion_header .icon_image {
+  display: table;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: #ED1A3D;
+  border-radius: 50%;
+}
+
+.group_accordion .acccordion_item .accordion_header .icon_image::before,
+.group_accordion .acccordion_item .accordion_header .icon_image::after {
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+}
+
+.group_accordion .acccordion_item .accordion_header .icon_image::before {
+  left: 50%;
+  top: 16.5px;
+  bottom: 16.5px;
+  width: 2px;
+  transform: translateX(-50%);
+}
+
+.group_accordion .acccordion_item .accordion_header .icon_image::after {
+  top: 50%;
+  left: 16.5px;
+  right: 16.5px;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.group_accordion .acccordion_item .accordion_header .icon_image.expand::before {
+  width: 0;
+}
+
+.group_accordion .acccordion_item .accordion_header .left_content {
+  outline: none;
+  padding-left: 31.5px;
+  margin-right: 25px;
+}
+
+.group_accordion .acccordion_item .accordion_header .left_content .title {
+  font-size: 1.75rem;
+}
+
+.group_accordion .acccordion_item .accordion_header .left_content .content {
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.group_accordion .acccordion_item .accordion_header .image {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  max-width: 390px;
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.group_accordion .acccordion_item .accordion_panel {
+  padding: 35px 0 10px 76.5px;
+  border-top: 2px solid #e5e6eb;
+  width: 100%;
+  background: #FFFFFF;
+  border-left: 0;
+  border-right: 0;
+  display: none;
+}
+
+.group_accordion .acccordion_item .accordion_panel.active {
+  display: block;
+}
+
+.group_accordion .acccordion_item .accordion_panel .wrapper_content {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.group_accordion .acccordion_item .accordion_panel .wrapper_content .item {
+  margin-top: 30px;
+}
+
+.group_accordion .acccordion_item .accordion_panel .wrapper_content .item .title {
+  font-size: 1.75rem;
+}
+
+.group_accordion .acccordion_item .accordion_panel .wrapper_content .item .content {
+  margin-top: 15px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .group_accordion .acccordion_item .accordion_header .image {
+    display: none;
+  }
+}
+
+/* ================== END History Accordion CSS ==================  */
+
+
+/* ================== Corporate Tabbing CSS ==================  */
+.corporate-tabbing {
+  padding-top: 20px;
+}
+
+.corporate-tabbing ul.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 0;
+  flex: 0 1 auto;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.corporate-tabbing ul.nav li {
+  width: 100%;
+  max-width: 240px;
+  text-align: center;
+  border: 2px solid #e5e6eb;
+  border-right: 1px solid #e5e6eb;
+  border-left: 1px solid #e5e6eb;
+  height: 60px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+}
+
+.corporate-tabbing ul.nav li.active {
+  border-bottom: 5px solid #ee0f0f;
+}
+
+.corporate-tabbing ul.nav li.active a {
+  color:#ee0f0f;
+  font-weight: bold;
+}
+
+.corporate-tabbing ul.nav li:first-child {
+  border-left: 2px solid #e5e6eb;
+}
+
+.corporate-tabbing ul.nav li:last-child {
+  border-right: 2px solid #e5e6eb;
+}
+
+.corporate-tabbing ul.nav li a {
+  display: flex;
+  border: none;
+  color: #333;
+  width: 100%;
+  line-height: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.corporate-tabbing ul.nav li a p {
+  margin-bottom: 0;
+}
+
+.corporate-tabbing .nav-link.active {
+  background: #fff;
+  color: #333;
+}
+
+.corporate-tabbing .tab-content {
+  margin-top: 0;
+}
+
+.tab-content > .tab-panel {
+  display: none;
+}
+
+.tab-content > .tab-panel.active {
+  display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .corporate-tabbing ul.nav li {
+    max-width: 250px;
+    width: 50%;
+    height: 56px;
+  }
+
+  .corporate-tabbing ul.nav li a {
+    height: 56px;
+    line-height: 56px;
+  }
+
+  .corporate-tabbing ul.nav li a p {
+    font-size: 0.875rem;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(2) {
+    border-right: 2px solid #e5e6eb;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(3) {
+    border-left: 2px solid #e5e6eb;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(3) {
+    border-top: 0;
+  }
+
+  .corporate-tabbing ul.nav li:nth-child(4) {
+    border-top: 0;
+  }
+
+}
+/* ================== End Corporate Tabbing CSS ==================  */

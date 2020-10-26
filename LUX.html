@@ -1,0 +1,2529 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:8080/ -->
+<html slick-uniqueid="3">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LUX</title>
+
+  <link rel="stylesheet" href="./LUX_files/lux.css">
+  <link rel="stylesheet" href="./LUX_files/index.css">
+
+
+  <script async="" src="./LUX_files/analytics.js"></script>
+  <script src="./LUX_files/jquery.min.js"></script>
+  <script>
+    window.t0 = new Date().getTime();
+    function tPast() {
+      return ((new Date().getTime() - t0) / 1000).toFixed(3);
+    }
+  </script>
+  <style type="text/css">
+    @font-face {
+      font-family: 'AvenirLTStd-Heavy';
+      font-display: swap;
+      src: url(/AvenirLTStd-Heavy.eot);
+      src: url(/AvenirLTStd-Heavy.eot?#iefix) format('embedded-opentype'),
+        url(/AvenirLTStd-Heavy.woff) format('woff'),
+        url(/AvenirLTStd-Heavy.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'AvenirLTStd-Book';
+      font-display: swap;
+      src: url(/AvenirLTStd-Book.eot);
+      src: url(/AvenirLTStd-Book.eot?#iefix) format('embedded-opentype'),
+        url(/AvenirLTStd-Book.woff) format('woff'),
+        url(/AvenirLTStd-Book.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-100';
+      font-display: swap;
+      src: url(/Museo-100.eot);
+      src: url(/Museo-100.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-100.woff2) format('woff2'),
+        url(/Museo-100.woff) format('woff'),
+        url(/Museo-100.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-300';
+      font-display: swap;
+      src: url(/Museo-300.eot);
+      src: url(/Museo-300.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-300.woff2) format('woff2'),
+        url(/Museo-300.woff) format('woff'),
+        url(/Museo-300.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-500';
+      font-display: swap;
+      src: url(/Museo-500.eot);
+      src: url(/Museo-500.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-500.woff2) format('woff2'),
+        url(/Museo-500.woff) format('woff'),
+        url(/Museo-500.ttf) format('truetype');
+    }
+
+    /* Force the above font-faces to be referenced so its included in optimized webpack builds */
+    .font-test {
+      font-family: 'AvenirLTStd-Heavy, AvenirLTStd-Book, Museo-100, Museo-300, Museo-500';
+    }
+  </style>
+  <style type="text/css">
+    .lux-component-container {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      letter-spacing: 0.16px;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+
+    .lux-component-container *,
+    .lux-component-container *:before,
+    .lux-component-container *:after {
+      box-sizing: inherit;
+    }
+
+    .lux-component-container hr {
+      border: solid #dddddd;
+      border-width: 1px 0 0;
+      clear: both;
+      height: 0;
+      margin: 1.25rem 0;
+    }
+  </style>
+  <style data-styled="" data-styled-version="4.3.2">
+    /* sc-component-id: Column-sc-3tx952-0 */
+    .gICaTD {
+      box-sizing: border-box;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    @media (min-width:0em) {
+      .gICaTD {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        display: block;
+      }
+    }
+
+    @media (min-width:48em) {
+      .gICaTD {
+        -webkit-flex-basis: 33.333333333333336%;
+        -ms-flex-preferred-size: 33.333333333333336%;
+        flex-basis: 33.333333333333336%;
+        max-width: 33.333333333333336%;
+        display: block;
+      }
+    }
+
+    @media (min-width:80em) {
+      .gICaTD {
+        -webkit-flex-basis: 33.333333333333336%;
+        -ms-flex-preferred-size: 33.333333333333336%;
+        flex-basis: 33.333333333333336%;
+        max-width: 33.333333333333336%;
+        display: block;
+      }
+    }
+
+    .fmMHaE {
+      box-sizing: border-box;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    @media (min-width:0em) {
+      .fmMHaE {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        display: block;
+      }
+    }
+
+    @media (min-width:48em) {
+      .fmMHaE {
+        -webkit-flex-basis: 66.66666666666667%;
+        -ms-flex-preferred-size: 66.66666666666667%;
+        flex-basis: 66.66666666666667%;
+        max-width: 66.66666666666667%;
+        display: block;
+      }
+    }
+
+    @media (min-width:80em) {
+      .fmMHaE {
+        -webkit-flex-basis: 66.66666666666667%;
+        -ms-flex-preferred-size: 66.66666666666667%;
+        flex-basis: 66.66666666666667%;
+        max-width: 66.66666666666667%;
+        display: block;
+      }
+    }
+
+    /* sc-component-id: Grid-sc-1oyfl5s-0 */
+    .bnbHcn {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 100%;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+    }
+
+    @media (min-width:48em) {
+      .bnbHcn {
+        width: 75rem;
+      }
+    }
+
+    @media (min-width:80em) {
+      .bnbHcn {
+        width: 75rem;
+      }
+    }
+
+    /* sc-component-id: Anchor__SCAnchor-sc-1hh7cxf-0 */
+    .kZHXbW {
+      color: #009FD4;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+      cursor: pointer;
+      outline: 0;
+      font-family: AvenirLTStd-Heavy, Arial, Helvetica, sans-serif;
+    }
+
+    .kZHXbW[disabled] {
+      color: #CCCCCC;
+      cursor: default;
+    }
+
+    .kZHXbW:not([disabled]):hover {
+      color: #1AB9EE;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+    }
+
+    /* sc-component-id: Row-v1llhy-0 */
+    .biSKFu {
+      box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -0.625rem;
+      margin-left: -0.625rem;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+
+    /* sc-component-id: styles__FooterLinksRow-rxwjma-0 */
+
+    /* sc-component-id: styles__FooterPagesRow-rxwjma-1 */
+
+    /* sc-component-id: styles__Divider-rxwjma-2 */
+
+    /* sc-component-id: styles__FlexGrid-rxwjma-3 */
+
+    /* sc-component-id: styles__Navigation-rxwjma-4 */
+
+    /* sc-component-id: styles__HeadingAnchor-rxwjma-5 */
+
+    /* sc-component-id: styles__FooterPage-rxwjma-6 */
+
+    /* sc-component-id: styles__FooterPageAnchor-rxwjma-7 */
+
+    /* sc-component-id: styles__Anchor-rxwjma-8 */
+
+    /* sc-component-id: styles__Copyright-rxwjma-9 */
+
+    /* sc-component-id: styles__Social-rxwjma-10 */
+
+    /* sc-component-id: styles__SocialLink-rxwjma-11 */
+
+    /* sc-component-id: styles__SocialIcon-rxwjma-12 */
+
+    /* sc-component-id: styles__BenefitItem-sc-1rms7p7-0 */
+
+    /* sc-component-id: styles__Container-sc-1rms7p7-1 */
+
+    /* sc-component-id: styles__ImageContainer-sc-1rms7p7-2 */
+
+    /* sc-component-id: styles__Heading-sc-1rms7p7-3 */
+
+    /* sc-component-id: styles__Image-sc-1rms7p7-4 */
+
+    /* sc-component-id: styles__Text-sc-1rms7p7-5 */
+
+    /* sc-component-id: styles__RibbonWrapper-sc-110z3y7-0 */
+
+    /* sc-component-id: styles__Ribbon-sc-110z3y7-1 */
+
+    /* sc-component-id: styles__CatalogueCard-qmm0az-0 */
+    .FmBzy {
+      max-width: 380px;
+      padding-bottom: 1.25rem;
+      height: 100%;
+    }
+
+    /* sc-component-id: styles__Ribbon-qmm0az-1 */
+
+    /* sc-component-id: styles__Image-qmm0az-2 */
+
+    /* sc-component-id: styles__Card-qmm0az-3 */
+    .iEAtXT {
+      min-height: 200px;
+      height: 100%;
+      box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      background-color: #F5F5F5;
+      position: relative;
+      border-bottom: 3px solid #ED1A3D;
+    }
+
+    /* sc-component-id: styles__Divider-qmm0az-4 */
+
+    /* sc-component-id: styles__Content-qmm0az-5 */
+    .fXcqUd {
+      padding: 1.25rem 1.25rem;
+      text-align: left;
+      display: block;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+    }
+
+    /* sc-component-id: styles__Title-qmm0az-6 */
+    .dcXHsS {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1.3125rem;
+      margin-top: 0;
+      color: #231F20;
+      font-weight: bold;
+    }
+
+    /* sc-component-id: styles__SubTitle-qmm0az-7 */
+
+    /* sc-component-id: styles__Description-qmm0az-8 */
+    .hZPnuA {
+      margin-top: 0;
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      color: #231F20;
+    }
+
+    /* sc-component-id: styles__TC-qmm0az-9 */
+
+    /* sc-component-id: styles__ImageContainer-qmm0az-10 */
+    .fTyQBP {
+      position: relative;
+    }
+
+    /* sc-component-id: styles__CTA-qmm0az-11 */
+    .iScjKl {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      bottom: 0;
+      -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      -webkit-align-items: left;
+      -webkit-box-align: left;
+      -ms-flex-align: left;
+      align-items: left;
+      -webkit-box-pack: left;
+      -webkit-justify-content: left;
+      -ms-flex-pack: left;
+      justify-content: left;
+      padding: 0 0 1.25rem 1.25rem;
+    }
+
+    /* sc-component-id: styles__Details-qmm0az-12 */
+
+    /* sc-component-id: styles__Anchor-qmm0az-13 */
+
+    /* sc-component-id: styles__SolutionsCategoryColumn-qmm0az-14 */
+    .fbdmCU {
+      min-height: 200px;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-transition: flex 0.3s;
+      transition: flex 0.3s;
+      padding: 2%;
+      text-align: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: 150px;
+      width: 100%;
+      background-position: center;
+      background-color: #FFFFFF;
+    }
+
+    @media (min-width:80em) {
+      .fbdmCU:hover {
+        -webkit-flex: 1.5;
+        -ms-flex: 1.5;
+        flex: 1.5;
+      }
+
+      .fbdmCU:hover h4 {
+        min-height: auto;
+      }
+
+      .fbdmCU:hover p {
+        display: block;
+      }
+    }
+
+    .fbdmCU.showImage img {
+      display: none;
+    }
+
+    .fbdmCU.showImage:hover img {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
+    .fbdmCU.showImage div {
+      -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+    }
+  </style>
+  <style data-styled="" data-styled-version="4.3.2">
+    /* sc-component-id: styles__WrapperDetail-sc-1yo9n05-0 */
+
+    /* sc-component-id: styles__Item-sc-1yo9n05-1 */
+    .foGXeT {
+      position: relative;
+      display: none;
+    }
+
+    .foGXeT.is-active {
+      display: block;
+    }
+
+    /* sc-component-id: styles__Prelative-sc-1yo9n05-2 */
+    .fZwepV {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    /* sc-component-id: styles__WrapImage-sc-1yo9n05-3 */
+    .lhuMFX {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    /* sc-component-id: styles__BackToTop-sc-1yo9n05-4 */
+    .bQoLvz {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+      margin-left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      color: #ED1A3D;
+      font-weight: bolder;
+      font-size: 1.125rem;
+      cursor: pointer;
+    }
+
+    /* sc-component-id: styles__Image-sc-1yo9n05-5 */
+    .fUtHeY {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      background-color: #F5F5F5;
+      width: 100%;
+      max-width: 200px;
+    }
+
+    /* sc-component-id: styles__WrapperContent-sc-1yo9n05-6 */
+    .cIdoyf {
+      position: relative;
+      padding: 1.25rem 1.25rem;
+      font-size: 1.125rem;
+    }
+
+    /* sc-component-id: styles__Name-sc-1yo9n05-7 */
+    .jANHhM {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1.3125rem;
+      margin-top: 0;
+      color: #231F20;
+      font-weight: bold;
+    }
+
+    /* sc-component-id: styles__Description-sc-1yo9n05-8 */
+    .bRGRxF {
+      margin-top: 0;
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      color: #231F20;
+      padding-bottom: 0.625rem;
+      border-bottom: 3px solid #ED1A3D;
+    }
+
+    /* sc-component-id: styles__DateApp-sc-1yo9n05-9 */
+    .gwposX {
+      margin-top: 0;
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      color: #231F20;
+      padding-top: 0.625rem;
+    }
+
+    .gwposX span {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1.125rem;
+      margin-top: 0;
+      color: #231F20;
+      font-weight: 900;
+    }
+
+    /* sc-component-id: styles__DetailInfo-sc-1yo9n05-10 */
+    .hXuYJT {
+      margin-top: 0;
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      padding-top: 0.625rem;
+      color: #231F20;
+    }
+
+    .hXuYJT p {
+      font-size: 1.125rem;
+    }
+
+    /* sc-component-id: Heading__H1-sc-1jycpcn-0 */
+
+    /* sc-component-id: Heading__H2-sc-1jycpcn-1 */
+
+    /* sc-component-id: Heading__H3-sc-1jycpcn-2 */
+
+    /* sc-component-id: Heading__H4-sc-1jycpcn-3 */
+
+    /* sc-component-id: Heading__H5-sc-1jycpcn-4 */
+
+    /* sc-component-id: Heading__H6-sc-1jycpcn-5 */
+
+    /* sc-component-id: baseElements__HorizontalRule-sc-1651ock-0 */
+
+    /* sc-component-id: baseElements__Paragraph-sc-1651ock-1 */
+    .ctpnvS {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+      -webkit-letter-spacing: 0.01rem;
+      -moz-letter-spacing: 0.01rem;
+      -ms-letter-spacing: 0.01rem;
+      letter-spacing: 0.01rem;
+    }
+
+    /* sc-component-id: styles__GroupDetail-sc-1oe7x4u-0 */
+    .bYpbPB {
+      position: relative;
+    }
+  </style>
+  <style type="text/css">
+    @font-face {
+      font-family: 'AvenirLTStd-Heavy';
+      font-display: swap;
+      src: url(/AvenirLTStd-Heavy.eot);
+      src: url(/AvenirLTStd-Heavy.eot?#iefix) format('embedded-opentype'),
+        url(/AvenirLTStd-Heavy.woff) format('woff'),
+        url(/AvenirLTStd-Heavy.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'AvenirLTStd-Book';
+      font-display: swap;
+      src: url(/AvenirLTStd-Book.eot);
+      src: url(/AvenirLTStd-Book.eot?#iefix) format('embedded-opentype'),
+        url(/AvenirLTStd-Book.woff) format('woff'),
+        url(/AvenirLTStd-Book.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-100';
+      font-display: swap;
+      src: url(/Museo-100.eot);
+      src: url(/Museo-100.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-100.woff2) format('woff2'),
+        url(/Museo-100.woff) format('woff'),
+        url(/Museo-100.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-300';
+      font-display: swap;
+      src: url(/Museo-300.eot);
+      src: url(/Museo-300.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-300.woff2) format('woff2'),
+        url(/Museo-300.woff) format('woff'),
+        url(/Museo-300.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Museo-500';
+      font-display: swap;
+      src: url(/Museo-500.eot);
+      src: url(/Museo-500.eot?#iefix) format('embedded-opentype'),
+        url(/Museo-500.woff2) format('woff2'),
+        url(/Museo-500.woff) format('woff'),
+        url(/Museo-500.ttf) format('truetype');
+    }
+
+    /* Force the above font-faces to be referenced so its included in optimized webpack builds */
+    .font-test {
+      font-family: 'AvenirLTStd-Heavy, AvenirLTStd-Book, Museo-100, Museo-300, Museo-500';
+    }
+
+    .lux-component-container {
+      font-family: AvenirLTStd-Book, Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      letter-spacing: 0.16px;
+      text-size-adjust: 100%;
+      box-sizing: border-box;
+    }
+
+    .lux-component-container *,
+    .lux-component-container *:before,
+    .lux-component-container *:after {
+      box-sizing: inherit;
+    }
+
+    .lux-component-container hr {
+      border: solid #dddddd;
+      border-width: 1px 0 0;
+      clear: both;
+      height: 0;
+      margin: 1.25rem 0;
+    }
+
+    .PresetDateRangePicker_panel {
+      padding: 0 22px 11px
+    }
+
+    .PresetDateRangePicker_button {
+      position: relative;
+      height: 100%;
+      text-align: center;
+      background: 0 0;
+      border: 2px solid #00a699;
+      color: #00a699;
+      padding: 4px 12px;
+      margin-right: 8px;
+      font: inherit;
+      font-weight: 700;
+      line-height: normal;
+      overflow: visible;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      cursor: pointer
+    }
+
+    .PresetDateRangePicker_button:active {
+      outline: 0
+    }
+
+    .PresetDateRangePicker_button__selected {
+      color: #fff;
+      background: #00a699
+    }
+
+    .SingleDatePickerInput {
+      display: inline-block;
+      background-color: #fff
+    }
+
+    .SingleDatePickerInput__withBorder {
+      border-radius: 2px;
+      border: 1px solid #dbdbdb
+    }
+
+    .SingleDatePickerInput__rtl {
+      direction: rtl
+    }
+
+    .SingleDatePickerInput__disabled {
+      background-color: #f2f2f2
+    }
+
+    .SingleDatePickerInput__block {
+      display: block
+    }
+
+    .SingleDatePickerInput__showClearDate {
+      padding-right: 30px
+    }
+
+    .SingleDatePickerInput_clearDate {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      padding: 10px;
+      margin: 0 10px 0 5px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%)
+    }
+
+    .SingleDatePickerInput_clearDate__default:focus,
+    .SingleDatePickerInput_clearDate__default:hover {
+      background: #dbdbdb;
+      border-radius: 50%
+    }
+
+    .SingleDatePickerInput_clearDate__small {
+      padding: 6px
+    }
+
+    .SingleDatePickerInput_clearDate__hide {
+      visibility: hidden
+    }
+
+    .SingleDatePickerInput_clearDate_svg {
+      fill: #82888a;
+      height: 12px;
+      width: 15px;
+      vertical-align: middle
+    }
+
+    .SingleDatePickerInput_clearDate_svg__small {
+      height: 9px
+    }
+
+    .SingleDatePickerInput_calendarIcon {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 10px;
+      margin: 0 5px 0 10px
+    }
+
+    .SingleDatePickerInput_calendarIcon_svg {
+      fill: #82888a;
+      height: 15px;
+      width: 14px;
+      vertical-align: middle
+    }
+
+    .SingleDatePicker {
+      position: relative;
+      display: inline-block
+    }
+
+    .SingleDatePicker__block {
+      display: block
+    }
+
+    .SingleDatePicker_picker {
+      z-index: 1;
+      background-color: #fff;
+      position: absolute
+    }
+
+    .SingleDatePicker_picker__rtl {
+      direction: rtl
+    }
+
+    .SingleDatePicker_picker__directionLeft {
+      left: 0
+    }
+
+    .SingleDatePicker_picker__directionRight {
+      right: 0
+    }
+
+    .SingleDatePicker_picker__portal {
+      background-color: rgba(0, 0, 0, .3);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%
+    }
+
+    .SingleDatePicker_picker__fullScreenPortal {
+      background-color: #fff
+    }
+
+    .SingleDatePicker_closeButton {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 15px;
+      z-index: 2
+    }
+
+    .SingleDatePicker_closeButton:focus,
+    .SingleDatePicker_closeButton:hover {
+      color: darken(#cacccd, 10%);
+      text-decoration: none
+    }
+
+    .SingleDatePicker_closeButton_svg {
+      height: 15px;
+      width: 15px;
+      fill: #cacccd
+    }
+
+    .DayPickerKeyboardShortcuts_buttonReset {
+      background: 0 0;
+      border: 0;
+      border-radius: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      padding: 0;
+      cursor: pointer;
+      font-size: 14px
+    }
+
+    .DayPickerKeyboardShortcuts_buttonReset:active {
+      outline: 0
+    }
+
+    .DayPickerKeyboardShortcuts_show {
+      width: 22px;
+      position: absolute;
+      z-index: 2
+    }
+
+    .DayPickerKeyboardShortcuts_show__bottomRight {
+      border-top: 26px solid transparent;
+      border-right: 33px solid #00a699;
+      bottom: 0;
+      right: 0
+    }
+
+    .DayPickerKeyboardShortcuts_show__bottomRight:hover {
+      border-right: 33px solid #008489
+    }
+
+    .DayPickerKeyboardShortcuts_show__topRight {
+      border-bottom: 26px solid transparent;
+      border-right: 33px solid #00a699;
+      top: 0;
+      right: 0
+    }
+
+    .DayPickerKeyboardShortcuts_show__topRight:hover {
+      border-right: 33px solid #008489
+    }
+
+    .DayPickerKeyboardShortcuts_show__topLeft {
+      border-bottom: 26px solid transparent;
+      border-left: 33px solid #00a699;
+      top: 0;
+      left: 0
+    }
+
+    .DayPickerKeyboardShortcuts_show__topLeft:hover {
+      border-left: 33px solid #008489
+    }
+
+    .DayPickerKeyboardShortcuts_showSpan {
+      color: #fff;
+      position: absolute
+    }
+
+    .DayPickerKeyboardShortcuts_showSpan__bottomRight {
+      bottom: 0;
+      right: -28px
+    }
+
+    .DayPickerKeyboardShortcuts_showSpan__topRight {
+      top: 1px;
+      right: -28px
+    }
+
+    .DayPickerKeyboardShortcuts_showSpan__topLeft {
+      top: 1px;
+      left: -28px
+    }
+
+    .DayPickerKeyboardShortcuts_panel {
+      overflow: auto;
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 2px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      padding: 22px;
+      margin: 33px
+    }
+
+    .DayPickerKeyboardShortcuts_title {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0
+    }
+
+    .DayPickerKeyboardShortcuts_list {
+      list-style: none;
+      padding: 0;
+      font-size: 14px
+    }
+
+    .DayPickerKeyboardShortcuts_close {
+      position: absolute;
+      right: 22px;
+      top: 22px;
+      z-index: 2
+    }
+
+    .DayPickerKeyboardShortcuts_close:active {
+      outline: 0
+    }
+
+    .DayPickerKeyboardShortcuts_closeSvg {
+      height: 15px;
+      width: 15px;
+      fill: #cacccd
+    }
+
+    .DayPickerKeyboardShortcuts_closeSvg:focus,
+    .DayPickerKeyboardShortcuts_closeSvg:hover {
+      fill: #82888a
+    }
+
+    .CalendarDay {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      cursor: pointer;
+      font-size: 14px;
+      text-align: center
+    }
+
+    .CalendarDay:active {
+      outline: 0
+    }
+
+    .CalendarDay__defaultCursor {
+      cursor: default
+    }
+
+    .CalendarDay__default {
+      border: 1px solid #e4e7e7;
+      color: #484848;
+      background: #fff
+    }
+
+    .CalendarDay__default:hover {
+      background: #e4e7e7;
+      border: 1px double #e4e7e7;
+      color: inherit
+    }
+
+    .CalendarDay__hovered_offset {
+      background: #f4f5f5;
+      border: 1px double #e4e7e7;
+      color: inherit
+    }
+
+    .CalendarDay__outside {
+      border: 0;
+      background: #fff;
+      color: #484848
+    }
+
+    .CalendarDay__outside:hover {
+      border: 0
+    }
+
+    .CalendarDay__blocked_minimum_nights {
+      background: #fff;
+      border: 1px solid #eceeee;
+      color: #cacccd
+    }
+
+    .CalendarDay__blocked_minimum_nights:active,
+    .CalendarDay__blocked_minimum_nights:hover {
+      background: #fff;
+      color: #cacccd
+    }
+
+    .CalendarDay__highlighted_calendar {
+      background: #ffe8bc;
+      color: #484848
+    }
+
+    .CalendarDay__highlighted_calendar:active,
+    .CalendarDay__highlighted_calendar:hover {
+      background: #ffce71;
+      color: #484848
+    }
+
+    .CalendarDay__selected_span {
+      background: #66e2da;
+      border: 1px solid #33dacd;
+      color: #fff
+    }
+
+    .CalendarDay__selected_span:active,
+    .CalendarDay__selected_span:hover {
+      background: #33dacd;
+      border: 1px solid #33dacd;
+      color: #fff
+    }
+
+    .CalendarDay__last_in_range {
+      border-right: #00a699
+    }
+
+    .CalendarDay__selected,
+    .CalendarDay__selected:active,
+    .CalendarDay__selected:hover {
+      background: #00a699;
+      border: 1px solid #00a699;
+      color: #fff
+    }
+
+    .CalendarDay__hovered_span,
+    .CalendarDay__hovered_span:hover {
+      background: #b2f1ec;
+      border: 1px solid #80e8e0;
+      color: #007a87
+    }
+
+    .CalendarDay__hovered_span:active {
+      background: #80e8e0;
+      border: 1px solid #80e8e0;
+      color: #007a87
+    }
+
+    .CalendarDay__blocked_calendar,
+    .CalendarDay__blocked_calendar:active,
+    .CalendarDay__blocked_calendar:hover {
+      background: #cacccd;
+      border: 1px solid #cacccd;
+      color: #82888a
+    }
+
+    .CalendarDay__blocked_out_of_range,
+    .CalendarDay__blocked_out_of_range:active,
+    .CalendarDay__blocked_out_of_range:hover {
+      background: #fff;
+      border: 1px solid #e4e7e7;
+      color: #cacccd
+    }
+
+    .CalendarMonth {
+      background: #fff;
+      text-align: center;
+      padding: 0 13px;
+      vertical-align: top;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none
+    }
+
+    .CalendarMonth_table {
+      border-collapse: collapse;
+      border-spacing: 0
+    }
+
+    .CalendarMonth_verticalSpacing {
+      border-collapse: separate
+    }
+
+    .CalendarMonth_caption {
+      color: #484848;
+      font-size: 18px;
+      text-align: center;
+      padding-top: 22px;
+      padding-bottom: 37px;
+      caption-side: initial
+    }
+
+    .CalendarMonth_caption__verticalScrollable {
+      padding-top: 12px;
+      padding-bottom: 7px
+    }
+
+    .CalendarMonthGrid {
+      background: #fff;
+      text-align: left;
+      z-index: 0
+    }
+
+    .CalendarMonthGrid__animating {
+      z-index: 1
+    }
+
+    .CalendarMonthGrid__horizontal {
+      position: absolute;
+      left: 9px
+    }
+
+    .CalendarMonthGrid__vertical {
+      margin: 0 auto
+    }
+
+    .CalendarMonthGrid__vertical_scrollable {
+      margin: 0 auto;
+      overflow-y: scroll
+    }
+
+    .CalendarMonthGrid_month__horizontal {
+      display: inline-block;
+      vertical-align: top;
+      min-height: 100%
+    }
+
+    .CalendarMonthGrid_month__hideForAnimation {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      pointer-events: none
+    }
+
+    .CalendarMonthGrid_month__hidden {
+      visibility: hidden
+    }
+
+    .DayPickerNavigation {
+      position: relative;
+      z-index: 2
+    }
+
+    .DayPickerNavigation__verticalDefault {
+      position: absolute;
+      width: 100%;
+      height: 52px;
+      bottom: 0;
+      left: 0
+    }
+
+    .DayPickerNavigation__verticalScrollableDefault {
+      position: relative
+    }
+
+    .DayPickerNavigation_button {
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 0;
+      padding: 0;
+      margin: 0
+    }
+
+    .DayPickerNavigation_button__default {
+      border: 1px solid #e4e7e7;
+      background-color: #fff;
+      color: #757575
+    }
+
+    .DayPickerNavigation_button__default:focus,
+    .DayPickerNavigation_button__default:hover {
+      border: 1px solid #c4c4c4
+    }
+
+    .DayPickerNavigation_button__default:active {
+      background: #f2f2f2
+    }
+
+    .DayPickerNavigation_button__horizontalDefault {
+      position: absolute;
+      top: 18px;
+      line-height: .78;
+      border-radius: 3px;
+      padding: 6px 9px
+    }
+
+    .DayPickerNavigation_leftButton__horizontalDefault {
+      left: 22px
+    }
+
+    .DayPickerNavigation_rightButton__horizontalDefault {
+      right: 22px
+    }
+
+    .DayPickerNavigation_button__verticalDefault {
+      padding: 5px;
+      background: #fff;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+      position: relative;
+      display: inline-block;
+      height: 100%;
+      width: 50%
+    }
+
+    .DayPickerNavigation_nextButton__verticalDefault {
+      border-left: 0
+    }
+
+    .DayPickerNavigation_nextButton__verticalScrollableDefault {
+      width: 100%
+    }
+
+    .DayPickerNavigation_svg__horizontal {
+      height: 19px;
+      width: 19px;
+      fill: #82888a
+    }
+
+    .DayPickerNavigation_svg__vertical {
+      height: 42px;
+      width: 42px;
+      fill: #484848
+    }
+
+    .DayPicker {
+      background: #fff;
+      position: relative;
+      text-align: left
+    }
+
+    .DayPicker__horizontal {
+      background: #fff
+    }
+
+    .DayPicker__verticalScrollable {
+      height: 100%
+    }
+
+    .DayPicker__hidden {
+      visibility: hidden
+    }
+
+    .DayPicker__withBorder {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .05), 0 0 0 1px rgba(0, 0, 0, .07);
+      border-radius: 3px
+    }
+
+    .DayPicker_portal__horizontal {
+      box-shadow: none;
+      position: absolute;
+      left: 50%;
+      top: 50%
+    }
+
+    .DayPicker_portal__vertical {
+      position: initial
+    }
+
+    .DayPicker_focusRegion {
+      outline: 0
+    }
+
+    .DayPicker_calendarInfo__horizontal,
+    .DayPicker_wrapper__horizontal {
+      display: inline-block;
+      vertical-align: top
+    }
+
+    .DayPicker_weekHeaders {
+      position: relative
+    }
+
+    .DayPicker_weekHeaders__horizontal {
+      margin-left: 9px
+    }
+
+    .DayPicker_weekHeader {
+      color: #757575;
+      position: absolute;
+      top: 62px;
+      z-index: 2;
+      padding: 0 13px;
+      text-align: left
+    }
+
+    .DayPicker_weekHeader__vertical {
+      left: 50%
+    }
+
+    .DayPicker_weekHeader__verticalScrollable {
+      top: 0;
+      display: table-row;
+      border-bottom: 1px solid #dbdbdb;
+      background: #fff;
+      margin-left: 0;
+      left: 0;
+      width: 100%;
+      text-align: center
+    }
+
+    .DayPicker_weekHeader_ul {
+      list-style: none;
+      margin: 1px 0;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 14px
+    }
+
+    .DayPicker_weekHeader_li {
+      display: inline-block;
+      text-align: center
+    }
+
+    .DayPicker_transitionContainer {
+      position: relative;
+      overflow: hidden;
+      border-radius: 3px
+    }
+
+    .DayPicker_transitionContainer__horizontal {
+      -webkit-transition: height .2s ease-in-out;
+      -moz-transition: height .2s ease-in-out;
+      transition: height .2s ease-in-out
+    }
+
+    .DayPicker_transitionContainer__vertical {
+      width: 100%
+    }
+
+    .DayPicker_transitionContainer__verticalScrollable {
+      padding-top: 20px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow-y: scroll
+    }
+
+    .DateInput {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      position: relative;
+      display: inline-block;
+      width: 130px;
+      vertical-align: middle
+    }
+
+    .DateInput__small {
+      width: 97px
+    }
+
+    .DateInput__block {
+      width: 100%
+    }
+
+    .DateInput__disabled {
+      background: #f2f2f2;
+      color: #dbdbdb
+    }
+
+    .DateInput_input {
+      font-weight: 200;
+      font-size: 19px;
+      line-height: 24px;
+      color: #484848;
+      background-color: #fff;
+      width: 100%;
+      padding: 11px 11px 9px;
+      border: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 2px solid transparent;
+      border-left: 0;
+      border-radius: 0
+    }
+
+    .DateInput_input__small {
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: .2px;
+      padding: 7px 7px 5px
+    }
+
+    .DateInput_input__regular {
+      font-weight: auto
+    }
+
+    .DateInput_input__readOnly {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none
+    }
+
+    .DateInput_input__focused {
+      outline: 0;
+      background: #fff;
+      border: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 2px solid #008489;
+      border-left: 0
+    }
+
+    .DateInput_input__disabled {
+      background: #f2f2f2;
+      font-style: italic
+    }
+
+    .DateInput_screenReaderMessage {
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px
+    }
+
+    .DateInput_fang {
+      position: absolute;
+      width: 20px;
+      height: 10px;
+      left: 22px;
+      z-index: 2
+    }
+
+    .DateInput_fangShape {
+      fill: #fff
+    }
+
+    .DateInput_fangStroke {
+      stroke: #dbdbdb;
+      fill: transparent
+    }
+
+    .DateRangePickerInput {
+      background-color: #fff;
+      display: inline-block
+    }
+
+    .DateRangePickerInput__disabled {
+      background: #f2f2f2
+    }
+
+    .DateRangePickerInput__withBorder {
+      border-radius: 2px;
+      border: 1px solid #dbdbdb
+    }
+
+    .DateRangePickerInput__rtl {
+      direction: rtl
+    }
+
+    .DateRangePickerInput__block {
+      display: block
+    }
+
+    .DateRangePickerInput__showClearDates {
+      padding-right: 30px
+    }
+
+    .DateRangePickerInput_arrow {
+      display: inline-block;
+      vertical-align: middle;
+      color: #484848
+    }
+
+    .DateRangePickerInput_arrow_svg {
+      vertical-align: middle;
+      fill: #484848;
+      height: 24px;
+      width: 24px
+    }
+
+    .DateRangePickerInput_clearDates {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      padding: 10px;
+      margin: 0 10px 0 5px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%)
+    }
+
+    .DateRangePickerInput_clearDates__small {
+      padding: 6px
+    }
+
+    .DateRangePickerInput_clearDates_default:focus,
+    .DateRangePickerInput_clearDates_default:hover {
+      background: #dbdbdb;
+      border-radius: 50%
+    }
+
+    .DateRangePickerInput_clearDates__hide {
+      visibility: hidden
+    }
+
+    .DateRangePickerInput_clearDates_svg {
+      fill: #82888a;
+      height: 12px;
+      width: 15px;
+      vertical-align: middle
+    }
+
+    .DateRangePickerInput_clearDates_svg__small {
+      height: 9px
+    }
+
+    .DateRangePickerInput_calendarIcon {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 10px;
+      margin: 0 5px 0 10px
+    }
+
+    .DateRangePickerInput_calendarIcon_svg {
+      fill: #82888a;
+      height: 15px;
+      width: 14px;
+      vertical-align: middle
+    }
+
+    .DateRangePicker {
+      position: relative;
+      display: inline-block
+    }
+
+    .DateRangePicker__block {
+      display: block
+    }
+
+    .DateRangePicker_picker {
+      z-index: 1;
+      background-color: #fff;
+      position: absolute
+    }
+
+    .DateRangePicker_picker__rtl {
+      direction: rtl
+    }
+
+    .DateRangePicker_picker__directionLeft {
+      left: 0
+    }
+
+    .DateRangePicker_picker__directionRight {
+      right: 0
+    }
+
+    .DateRangePicker_picker__portal {
+      background-color: rgba(0, 0, 0, .3);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%
+    }
+
+    .DateRangePicker_picker__fullScreenPortal {
+      background-color: #fff
+    }
+
+    .DateRangePicker_closeButton {
+      background: 0 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      line-height: normal;
+      overflow: visible;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 15px;
+      z-index: 2
+    }
+
+    .DateRangePicker_closeButton:focus,
+    .DateRangePicker_closeButton:hover {
+      color: darken(#cacccd, 10%);
+      text-decoration: none
+    }
+
+    .DateRangePicker_closeButton_svg {
+      height: 15px;
+      width: 15px;
+      fill: #cacccd
+    }
+  </style>
+  <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js" async=""></script>
+  <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js"
+    async=""></script>
+</head>
+
+<body cz-shortcut-listen="true">
+
+  <div id="root">
+    <!-- <div class="component-container">
+      <div class="widget-instance">
+
+        <h2>Corporate Committee List</h2>
+        <div class="lux-component-container" component="Committee"
+          datamodel="{&quot;bgColor&quot;:null,&quot;memberList&quot;:[{&quot;memberPhoto&quot;:&quot;/src/assets/images/dev-only/CEO_1.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 2&quot;,&quot;memberName&quot;:&quot;Lee Theng Kiat&quot;,&quot;designation&quot;:&quot;Non-executive and non-independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;Non-executive and non-independent Director&lt;/p&gt;\r\n&lt;p&gt;Chairman, Singtel Board&lt;/p&gt;\r\n&lt;p&gt;Chairman, Finance and Investment Committee&lt;br /&gt;\r\nMember, Corporate Governance and Nominations Committee&lt;br /&gt;\r\nMember, Executive Resource and Compensation Committee&lt;br /&gt;\r\nMember, Optus Advisory Committee&lt;br /&gt;\r\n&lt;/p&gt;\r\n&lt;p&gt;&lt;b&gt;Number of directorships in listed companies (including Singtel): 1&lt;/b&gt;&lt;/p&gt;\r\n&lt;p&gt;Mr Lee Theng Kiat, 67, is the Executive Director of Temasek Holdings (Private) Limited and the Chairman of Temasek International Pte. Ltd. (collectively Temasek). &lt;/p&gt;\r\n&lt;p&gt;Before joining Temasek, Theng Kiat was the President and Chief Executive Officer of Singapore Technologies Telemedia Pte Ltd and STT Communications Ltd.  Prior to that, he held several senior level positions in the Singapore Technologies Group.  Theng Kiat served in the Singapore Legal Service for over eight years before joining the Singapore Technologies Group. &lt;/p&gt;\r\n&lt;p&gt;Theng Kiat holds a Bachelor of Laws (Honours) from the National University of Singapore.  &lt;/p&gt;\r\n&quot;},{&quot;memberPhoto&quot;:&quot;/src/assets/images/dev-only/CEO_2.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 1&quot;,&quot;memberName&quot;:&quot;Chua Sock Koong&quot;,&quot;designation&quot;:&quot;Group Chief Executive Officer&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;&lt;b&gt;Number of directorships in listed companies (including Singtel): 2&lt;/b&gt;&lt;/p&gt;\r\n&lt;p&gt;Ms Chua Sock Koong, 62, was appointed Group CEO on 1 April 2007. She has overall responsibility for the Group’s businesses.&lt;/p&gt;\r\n&lt;p&gt;Sock Koong joined Singtel in June 1989 as Treasurer before becoming CFO in April 1999. She held the positions of Group CFO and CEO, International from February 2006 to 12 October 2006, when she was appointed Deputy Group CEO.&lt;/p&gt;\r\n&lt;p&gt;Sock Koong sits on the boards of Bharti Airtel Limited, Bharti Telecom Limited, the Defence Science and Technology Agency, Cap Vista Pte Ltd and key subsidiaries of the Singtel Group. She is also Deputy Chair of the GSMA Board. Sock Koong is the Deputy Chairman of the Public Service Commission and a member of Singapore’s Council of Presidential Advisers and the Research, Innovation and Enterprise Council.&lt;/p&gt;\r\n&lt;p&gt;Sock Koong was awarded the Public Service Star at the Singapore National Day Awards 2019 and the Medal of Commendation (Gold) at the NTUC May Day Awards 2016. Sock Koong holds a Bachelor of Accountancy (First Class Honours) from the University of Singapore. She is a Fellow Member of the Institute of Singapore Chartered Accountants and a CFA charterholder.&lt;/p&gt;\r\n&quot;,&quot;dateOfAppointment&quot;:&quot;Director on 12 October 2006 and Group Chief Executive Officer (CEO) on 1 April 2007&quot;,&quot;lastReelectedDate&quot;:&quot;30 July 2020&quot;},{&quot;memberPhoto&quot;:&quot;/src/assets/images/dev-only/CEO_3.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 3&quot;,&quot;memberName&quot;:&quot;Gautam Banerjee&quot;,&quot;designation&quot;:&quot;Non-executive and independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;Chairman, Audit Committee&lt;br /&gt;\r\nMember, Risk Committee&lt;br /&gt;\r\n&lt;b&gt;Number of directorships in listed companies (including Singtel): 3&lt;/b&gt;&lt;/p&gt;\r\n&lt;p&gt;Mr Gautam Banerjee, 65, is Senior Managing Director of Blackstone Group and Chairman of Blackstone Singapore Pte Ltd. Gautam spent over 30 years with PricewaterhouseCoopers (PwC) and was a Senior Partner and Executive Chairman of PwC Singapore until he retired on 31 December 2012.&lt;/p&gt;\r\n&lt;p&gt;Gautam sits on the boards of Singapore Airlines Limited, Piramal Enterprises Limited and GIC Private Limited. He also serves on the Board of the Defence Science and Technology Agency. He was the Chairman of the Listings Advisory Committee of the Singapore Exchange, a Director of The Indian Hotels Company Limited and EDBI Pte Ltd and a member of the Singapore Legal Service Commission and the Governing Board of Yale-NUS College. &lt;/p&gt;\r\n&lt;p&gt;Gautam holds a Bachelor of Science (Honours) and an Honorary Doctor of Laws (LLD) from Warwick University. He is a fellow member of the Institute of Chartered Accountants in England and Wales, the Institute of Singapore Chartered Accountants and the Singapore Institute of Directors.&lt;/p&gt;\r\n&quot;},{&quot;memberPhoto&quot;:&quot;/src/assets/images/dev-only/CEO_4.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 4&quot;,&quot;memberName&quot;:&quot;Venky Ganesan&quot;,&quot;designation&quot;:&quot;Non-executive and independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;&lt;b&gt;Number of directorships in listed companies (including Singtel): 1&lt;/b&gt;&lt;/p&gt;\r\n&lt;p&gt;Mr Venkataraman (Venky) Ganesan, 47, is one of the Managing Partners of Menlo Ventures, a top-tier Silicon Valley venture capital firm. He focuses on investments in the consumer and enterprise sectors. Venky sits on the boards of several portfolio companies of Menlo Ventures. He is also a board member of Amobee, Inc., a subsidiary of Singtel.&lt;/p&gt;\r\n&lt;p&gt;Prior to joining Menlo Ventures, Venky was Managing Director at Globespan Capital Partners. Before Globespan, he was one of the founders of Trigo Technologies. He also worked at McKinsey &amp;amp; Company and Microsoft as a Program Manager. He is the former Chair of the National Venture Capital Association and a former Director of Avi Networks Inc, Palo Alto Networks Inc and Virident Systems.&lt;/p&gt;\r\n&lt;p&gt;Venky holds a Bachelor of Arts in Economics-Mathematics from Reed College and a Bachelor of Science in Engineering and Applied Science (Honours) from the California Institute of Technology in the US.&lt;/p&gt;\r\n&quot;},{&quot;memberPhoto&quot;:&quot;//src/assets/images/dev-only/CEO_5.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 5&quot;,&quot;memberName&quot;:&quot;Bradley Horowitz&quot;,&quot;designation&quot;:&quot;Non-executive and independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;Mr Bradley Horowitz, 55, is Vice President of Product Management at Google, Inc.  Over the past decade, Bradley has led product development for a wide array of consumer products at Google including Gmail, Google Drive &amp;amp; Docs, Blogger, Google Voice, Google News and Google Photos.  Prior to joining Google, he was the Vice President of Advanced Development at Yahoo, Inc.&lt;/p&gt;\r\n&lt;p&gt;Bradley is an independent Director of Issuu, Inc. and Lyst Ltd.  He was a member of the Visiting Committee of Media Lab at the Massachusetts Institute of Technology.&lt;/p&gt;\r\n&lt;p&gt;Bradley holds a Bachelor in Computer Science from the University of Michigan and a Masters in Media Science from the Media Lab at the Massachusetts Institute of Technology.&lt;/p&gt;\r\n&quot;},{&quot;memberPhoto&quot;:&quot;/src/assets/images/dev-only/CEO_6.jpg&quot;,&quot;memberImgAlt&quot;:&quot;Member 5&quot;,&quot;memberName&quot;:&quot;Gail Kelly&quot;,&quot;designation&quot;:&quot;Non-executive and independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;Non-executive and independent Director&lt;/p&gt;\r\n&lt;p&gt;Chairman, Technology Advisory Panel&lt;br /&gt;\r\nMember, Finance and Investment Committee&lt;br /&gt;\r\n&lt;b&gt;Number of directorships in listed companies (including Singtel): 1&lt;/b&gt;&lt;/p&gt;\r\n&lt;p&gt;Mr Venkataraman (Venky) Ganesan, 47, is one of the Managing Partners of Menlo Ventures, a top-tier Silicon Valley venture capital firm. He focuses on investments in the consumer and enterprise sectors. Venky sits on the boards of several portfolio companies of Menlo Ventures. He is also a board member of Amobee, Inc., a subsidiary of Singtel.&lt;/p&gt;\r\n&lt;p&gt; &lt;/p&gt;\r\n&lt;p&gt;Prior to joining Menlo Ventures, Venky was Managing Director at Globespan Capital Partners. Before Globespan, he was one of the founders of Trigo Technologies. He also worked at McKinsey &amp;amp; Company and Microsoft as a Program Manager. He is the former Chair of the National Venture Capital Association and a former Director of Avi Networks Inc, Palo Alto Networks Inc and Virident Systems.&lt;/p&gt;\r\n&lt;p&gt;Venky holds a Bachelor of Arts in Economics-Mathematics from Reed College and a Bachelor of Science in Engineering and Applied Science (Honours) from the California Institute of Technology in the US.&lt;/p&gt;\r\n&quot;},{&quot;memberPhoto&quot;:&quot;/content/dam/singtel/about-us/committee/CEO-2.jpg&quot;,&quot;memberName&quot;:&quot;Lee Theng Kiat&quot;,&quot;designation&quot;:&quot;Non-executive and non-independent Director&quot;,&quot;detailInfo&quot;:&quot;&lt;p&gt;Mr Lee Theng Kiat, 67, is the Executive Director of Temasek Holdings (Private) Limited and the Chairman of Temasek International Pte. Ltd. (collectively Temasek). &lt;/p&gt;\r\n&lt;p&gt; &lt;/p&gt;\r\n&lt;p&gt;Before joining Temasek, Theng Kiat was the President and Chief Executive Officer of Singapore Technologies Telemedia Pte Ltd and STT Communications Ltd.  Prior to that, he held several senior level positions in the Singapore Technologies Group.  Theng Kiat served in the Singapore Legal Service for over eight years before joining the Singapore Technologies Group. &lt;/p&gt;\r\n&lt;p&gt; &lt;/p&gt;\r\n&lt;p&gt;Theng Kiat holds a Bachelor of Laws (Honours) from the National University of Singapore.  &lt;br /&gt;\r\n&lt;/p&gt;\r\n&lt;p&gt; &lt;/p&gt;\r\n&quot;}]}">
+          <div id="Committee0" class="Committee">
+            <div class="Grid-sc-1oyfl5s-0 bnbHcn">
+              <div class="Row-v1llhy-0 biSKFu">
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/src/assets/images/dev-only/CEO_1.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Lee Theng Kiat</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and non-independent Director
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/src/assets/images/dev-only/CEO_2.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Chua Sock Koong</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Group Chief Executive Officer</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/src/assets/images/dev-only/CEO_3.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Gautam Banerjee</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and independent Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/src/assets/images/dev-only/CEO_4.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Venky Ganesan</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and independent Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;//src/assets/images/dev-only/CEO_5.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Bradley Horowitz</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and independent Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/src/assets/images/dev-only/CEO_6.jpg&quot;);"></div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Gail Kelly</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and independent Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="Column-sc-3tx952-0 gICaTD">
+                  <a class="Anchor__SCAnchor-sc-1hh7cxf-0 kZHXbW">
+                    <div class="styles__CatalogueCard-qmm0az-0 FmBzy">
+                      <div class="styles__Card-qmm0az-3 iEAtXT">
+                        <div class="styles__ImageContainer-qmm0az-10 fTyQBP">
+                          <div class="styles__SolutionsCategoryColumn-qmm0az-14 fbdmCU"
+                            style="background-image: url(&quot;/content/dam/singtel/about-us/committee/CEO-2.jpg&quot;);">
+                          </div>
+                        </div>
+                        <div class="styles__Content-qmm0az-5 fXcqUd">
+                          <div class="styles__Title-qmm0az-6 dcXHsS">Lee Theng Kiat</div>
+                        </div>
+                        <div class="styles__CTA-qmm0az-11 iScjKl">
+                          <div class="styles__Description-qmm0az-8 hZPnuA">Non-executive and non-independent Director
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="id-group-detail-member" class="styles__GroupDetail-sc-1oe7x4u-0 bYpbPB">
+                <div class="is-active styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_1.jpg"
+                            alt="Member 2" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Lee Theng Kiat</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and non-independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Non-executive and non-independent
+                            Director</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Chairman, Singtel Board</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Chairman, Finance and Investment
+                            Committee<br>
+                            Member, Corporate Governance and Nominations Committee<br>
+                            Member, Executive Resource and Compensation Committee<br>
+                            Member, Optus Advisory Committee<br>
+                          </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"><b>Number of directorships in listed
+                              companies (including Singtel): 1</b></p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Lee Theng Kiat, 67, is the Executive
+                            Director of Temasek Holdings (Private) Limited and the Chairman of Temasek International
+                            Pte. Ltd. (collectively Temasek). </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Before joining Temasek, Theng Kiat was
+                            the President and Chief Executive Officer of Singapore Technologies Telemedia Pte Ltd and
+                            STT Communications Ltd. Prior to that, he held several senior level positions in the
+                            Singapore Technologies Group. Theng Kiat served in the Singapore Legal Service for over
+                            eight years before joining the Singapore Technologies Group. </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Theng Kiat holds a Bachelor of Laws
+                            (Honours) from the National University of Singapore. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_2.jpg"
+                            alt="Member 1" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Chua Sock Koong</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Group Chief Executive Officer</div>
+                        <div class="styles__DateApp-sc-1yo9n05-9 gwposX"><span>Date of appointment: </span>Director on
+                          12 October 2006 and Group Chief Executive Officer (CEO) on 1 April 2007</div>
+                        <div class="styles__DateApp-sc-1yo9n05-9 gwposX"><span>Last re-elected: </span>30 July 2020
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"><b>Number of directorships in listed
+                              companies (including Singtel): 2</b></p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Ms Chua Sock Koong, 62, was appointed
+                            Group CEO on 1 April 2007. She has overall responsibility for the Group’s businesses.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Sock Koong joined Singtel in June 1989
+                            as Treasurer before becoming CFO in April 1999. She held the positions of Group CFO and CEO,
+                            International from February 2006 to 12 October 2006, when she was appointed Deputy Group
+                            CEO.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Sock Koong sits on the boards of Bharti
+                            Airtel Limited, Bharti Telecom Limited, the Defence Science and Technology Agency, Cap Vista
+                            Pte Ltd and key subsidiaries of the Singtel Group. She is also Deputy Chair of the GSMA
+                            Board. Sock Koong is the Deputy Chairman of the Public Service Commission and a member of
+                            Singapore’s Council of Presidential Advisers and the Research, Innovation and Enterprise
+                            Council.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Sock Koong was awarded the Public
+                            Service Star at the Singapore National Day Awards 2019 and the Medal of Commendation (Gold)
+                            at the NTUC May Day Awards 2016. Sock Koong holds a Bachelor of Accountancy (First Class
+                            Honours) from the University of Singapore. She is a Fellow Member of the Institute of
+                            Singapore Chartered Accountants and a CFA charterholder.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_3.jpg"
+                            alt="Member 3" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Gautam Banerjee</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Chairman, Audit Committee<br>
+                            Member, Risk Committee<br>
+                            <b>Number of directorships in listed companies (including Singtel): 3</b></p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Gautam Banerjee, 65, is Senior
+                            Managing Director of Blackstone Group and Chairman of Blackstone Singapore Pte Ltd. Gautam
+                            spent over 30 years with PricewaterhouseCoopers (PwC) and was a Senior Partner and Executive
+                            Chairman of PwC Singapore until he retired on 31 December 2012.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Gautam sits on the boards of Singapore
+                            Airlines Limited, Piramal Enterprises Limited and GIC Private Limited. He also serves on the
+                            Board of the Defence Science and Technology Agency. He was the Chairman of the Listings
+                            Advisory Committee of the Singapore Exchange, a Director of The Indian Hotels Company
+                            Limited and EDBI Pte Ltd and a member of the Singapore Legal Service Commission and the
+                            Governing Board of Yale-NUS College. </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Gautam holds a Bachelor of Science
+                            (Honours) and an Honorary Doctor of Laws (LLD) from Warwick University. He is a fellow
+                            member of the Institute of Chartered Accountants in England and Wales, the Institute of
+                            Singapore Chartered Accountants and the Singapore Institute of Directors.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_4.jpg"
+                            alt="Member 4" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Venky Ganesan</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"><b>Number of directorships in listed
+                              companies (including Singtel): 1</b></p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Venkataraman (Venky) Ganesan, 47, is
+                            one of the Managing Partners of Menlo Ventures, a top-tier Silicon Valley venture capital
+                            firm. He focuses on investments in the consumer and enterprise sectors. Venky sits on the
+                            boards of several portfolio companies of Menlo Ventures. He is also a board member of
+                            Amobee, Inc., a subsidiary of Singtel.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Prior to joining Menlo Ventures, Venky
+                            was Managing Director at Globespan Capital Partners. Before Globespan, he was one of the
+                            founders of Trigo Technologies. He also worked at McKinsey &amp; Company and Microsoft as a
+                            Program Manager. He is the former Chair of the National Venture Capital Association and a
+                            former Director of Avi Networks Inc, Palo Alto Networks Inc and Virident Systems.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Venky holds a Bachelor of Arts in
+                            Economics-Mathematics from Reed College and a Bachelor of Science in Engineering and Applied
+                            Science (Honours) from the California Institute of Technology in the US.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_5.jpg"
+                            alt="Member 5" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Bradley Horowitz</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Bradley Horowitz, 55, is Vice
+                            President of Product Management at Google, Inc. Over the past decade, Bradley has led
+                            product development for a wide array of consumer products at Google including Gmail, Google
+                            Drive &amp; Docs, Blogger, Google Voice, Google News and Google Photos. Prior to joining
+                            Google, he was the Vice President of Advanced Development at Yahoo, Inc.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Bradley is an independent Director of
+                            Issuu, Inc. and Lyst Ltd. He was a member of the Visiting Committee of Media Lab at the
+                            Massachusetts Institute of Technology.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Bradley holds a Bachelor in Computer
+                            Science from the University of Michigan and a Masters in Media Science from the Media Lab at
+                            the Massachusetts Institute of Technology.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO_6.jpg"
+                            alt="Member 5" class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Gail Kelly</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Non-executive and independent Director
+                          </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Chairman, Technology Advisory Panel<br>
+                            Member, Finance and Investment Committee<br>
+                            <b>Number of directorships in listed companies (including Singtel): 1</b></p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Venkataraman (Venky) Ganesan, 47, is
+                            one of the Managing Partners of Menlo Ventures, a top-tier Silicon Valley venture capital
+                            firm. He focuses on investments in the consumer and enterprise sectors. Venky sits on the
+                            boards of several portfolio companies of Menlo Ventures. He is also a board member of
+                            Amobee, Inc., a subsidiary of Singtel.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"> </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Prior to joining Menlo Ventures, Venky
+                            was Managing Director at Globespan Capital Partners. Before Globespan, he was one of the
+                            founders of Trigo Technologies. He also worked at McKinsey &amp; Company and Microsoft as a
+                            Program Manager. He is the former Chair of the National Venture Capital Association and a
+                            former Director of Avi Networks Inc, Palo Alto Networks Inc and Virident Systems.</p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Venky holds a Bachelor of Arts in
+                            Economics-Mathematics from Reed College and a Bachelor of Science in Engineering and Applied
+                            Science (Honours) from the California Institute of Technology in the US.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="styles__Item-sc-1yo9n05-1 foGXeT">
+                  <div class="Row-v1llhy-0 biSKFu">
+                    <div class="Column-sc-3tx952-0 gICaTD">
+                      <div class="styles__Prelative-sc-1yo9n05-2 fZwepV">
+                        <div class="styles__WrapImage-sc-1yo9n05-3 lhuMFX"><img src="./LUX_files/CEO-2.jpg" alt=""
+                            class="styles__Image-sc-1yo9n05-5 fUtHeY"></div>
+                        <div class="styles__BackToTop-sc-1yo9n05-4 bQoLvz">Back to top</div>
+                      </div>
+                    </div>
+                    <div class="Column-sc-3tx952-0 fmMHaE">
+                      <div class="styles__WrapperContent-sc-1yo9n05-6 cIdoyf">
+                        <div class="styles__Name-sc-1yo9n05-7 jANHhM">Lee Theng Kiat</div>
+                        <div class="styles__Description-sc-1yo9n05-8 bRGRxF">Non-executive and non-independent Director
+                        </div>
+                        <div class="styles__DetailInfo-sc-1yo9n05-10 hXuYJT">
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Mr Lee Theng Kiat, 67, is the Executive
+                            Director of Temasek Holdings (Private) Limited and the Chairman of Temasek International
+                            Pte. Ltd. (collectively Temasek). </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"> </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Before joining Temasek, Theng Kiat was
+                            the President and Chief Executive Officer of Singapore Technologies Telemedia Pte Ltd and
+                            STT Communications Ltd. Prior to that, he held several senior level positions in the
+                            Singapore Technologies Group. Theng Kiat served in the Singapore Legal Service for over
+                            eight years before joining the Singapore Technologies Group. </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"> </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS">Theng Kiat holds a Bachelor of Laws
+                            (Honours) from the National University of Singapore. <br>
+                          </p>
+                          <p class="baseElements__Paragraph-sc-1651ock-1 ctpnvS"> </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> -->
+
+    <!-- Corporate History Accordion -->
+    <div class="component-container">
+      <div class="row" data-width-container="100%">
+        <ul class="group_accordion">
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+    <!-- End Corporate History Accordion -->
+
+    <!-- Corporate History Accordion -->
+    <div class="component-container">
+      <div class="row" data-width-container="800px">
+        <ul class="group_accordion">
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="acccordion_item">
+            <div class="accordion_header" data-toggle="accordion">
+              <span class="icon_image"></span>
+              <div class="left_content">
+                <div class="title">The Early Years</div>
+                <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+              </div>
+              <img class="image" src="./LUX_files/article-dummy-image_03.png" alt="test_img">
+            </div>     
+            <div class="accordion_panel">
+
+              <ul class="wrapper_content">
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+
+                <li class="item">
+                  <div class="title">1879</div>
+                  <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet dui magna, non fermentum nulla tristique ac. Mauris fermentum vel ex ut porta.</div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+    <!-- End Corporate History Accordion -->
+
+    <!-- Corporate Tabbing 2 TAB-->
+    <div class="component-container corporate-tabbing">
+      <div class="row">
+        <ul class="nav" id="" role="tablist" data-tabbing="tabbing">
+          <li class="nav-item active">
+            <a class="nav-link" id="platforms-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="platforms">Enviroment</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">People</a>
+          </li>
+        </ul>
+        <div class="tab-content" data-content="tabbing">
+          <div class="tab-panel fade active">
+            Content Tab 2 TAB Content 1 
+          </div>
+
+          <div class="tab-panel fade">
+            Content Tab 2 TAB Content 2 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Corporate Tabbing 2 TAB-->
+
+    <!-- Corporate Tabbing 1-->
+    <div class="component-container corporate-tabbing">
+      <ul class="nav" id="" role="tablist" data-tabbing="tabbing">
+        <li class="nav-item active">
+          <a class="nav-link" id="platforms-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="platforms">Enviroment</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">People</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">Community</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">Marketplace & Customers</a>
+        </li>
+      </ul>
+      <div class="tab-content" data-content="tabbing">
+        <div class="tab-panel fade active">
+          Content Tab 1 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 2 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 3 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 4 
+        </div>
+      </div> 
+    </div>
+    <!-- End Corporate Tabbing 1-->
+
+    <!-- Corporate Tabbing -->
+    <div class="component-container corporate-tabbing">
+      <ul class="nav" id="" role="tablist" data-tabbing="tabbing">
+        <li class="nav-item active">
+          <a class="nav-link" id="platforms-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="platforms">Enviroment</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">People</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">Community</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " id="hotlines-tab" data-toggle="tab" href="javascript:;" role="tab" aria-controls="hotlines">Marketplace & Customers</a>
+        </li>
+      </ul>
+      <div class="tab-content" data-content="tabbing">
+        <div class="tab-panel fade active">
+          Content Tab 1 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 2 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 3 
+        </div>
+
+        <div class="tab-panel fade">
+          Content Tab 4 
+        </div>
+
+
+      </div>
+      
+    </div>
+    <!-- End Corporate Tabbing -->
+
+  </div>
+
+  
+  <script type="text/javascript" src="./LUX_files/lux.js"></script>
+  <script type="text/javascript" src="./LUX_files/accordion.js"></script>
+
+</body>
+
+</html>
